@@ -1,0 +1,31 @@
+//   #################################### fonts
+@font-face {
+  font-family: "Damion";
+  src: url("../fonts/Damion/Damion.eot");
+  src: url("../fonts/Damion/Damion.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Damion/Damion.woff2") format("woff2"),
+    url("../fonts/Damion/Damion.woff") format("woff"),
+    url("../fonts/Damion/Damion.ttf") format("truetype"),
+    url("../fonts/Damion/Damion.svg#Damion") format("svg");
+}
+
+@font-face {
+  font-family: "Frutiger LT Std";
+  src: url("../fonts/FrutigerLTStd-Roman/FrutigerLTStd-Roman.eot");
+  src: url("../fonts/FrutigerLTStd-Roman/FrutigerLTStd-Roman.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FrutigerLTStd-Roman/FrutigerLTStd-Roman.woff2")
+      format("woff2"),
+    url("../fonts/FrutigerLTStd-Roman/FrutigerLTStd-Roman.woff") format("woff"),
+    url("../fonts/FrutigerLTStd-Roman/FrutigerLTStd-Roman.ttf")
+      format("truetype"),
+    url("../fonts/FrutigerLTStd-Roman/FrutigerLTStd-Roman.svg#FrutigerLTStd-Roman")
+      format("svg");
+}
+
+$mainFont: "Damion", "Open Sans", sans-serif;
+$secondFont: "Frutiger LT Std", "Open Sans", sans-serif;
+
+//   #################################### directions
+$start: left;
+$end: right;

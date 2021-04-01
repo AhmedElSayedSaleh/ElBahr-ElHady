@@ -1,0 +1,27 @@
+// ######################### sm-mobile RWD #####################
+@mixin sm {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+// ######################### md-mobile RWD #####################
+@mixin md {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
+
+// ######################### tablet RWD #####################
+@mixin lg {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+// ######################### laptop RWD #####################
+@mixin xl {
+  @media (max-width: 991px) {
+    @content;
+  }
+} ;

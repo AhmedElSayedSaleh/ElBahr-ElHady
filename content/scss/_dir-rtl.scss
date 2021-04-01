@@ -1,0 +1,28 @@
+//   #################################### fonts
+@font-face {
+  font-family: "Cairo";
+  src: url("../fonts/Cairo/Cairo-Regular.eot");
+  src: url("../fonts/Cairo/Cairo-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Cairo/Cairo-Regular.woff2") format("woff2"),
+    url("../fonts/Cairo/Cairo-Regular.woff") format("woff"),
+    url("../fonts/Cairo/Cairo-Regular.ttf") format("truetype"),
+    url("../fonts/Cairo/Cairo-Regular.svg#Damion") format("svg");
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("../fonts/Muli/Muli.eot");
+  src: url("../fonts/Muli/Muli.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Muli/Muli.woff2") format("woff2"),
+    url("../fonts/Muli/Muli.woff") format("woff"),
+    url("../fonts/Muli/Muli.ttf") format("truetype"),
+    url("../fonts/Muli/Muli.svg#Damion") format("svg");
+}
+
+$mainFont: "Cairo", "Open Sans", sans-serif;
+$secondFont: "Muli", "Open Sans", sans-serif;
+
+//   #################################### directions
+$start: right;
+$end: left;
